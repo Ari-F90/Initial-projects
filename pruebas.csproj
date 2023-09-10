@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Calculator\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Calculator\" />
+  </ItemGroup>
 </Project>
